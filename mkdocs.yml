@@ -1,0 +1,20 @@
+site_name: MC Server Soft Documentation
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - tabs
+  palette:
+    primary: teal
+    accent: teal
+extra_css: [assets/custom.css]
+repo_name: cyric2020/qrcode_api_docs
+repo_url: https://cyric2020.github.io/qrcode_api_docs/
+markdown_extensions:
+  - codehilite
+  - admonition
+nav:
+ - Getting Started:
+   - Introduction: index.md
