@@ -4,12 +4,13 @@ A QRCode generating API to easily and quickly generate QR Codes.
 
 ## Overview
 
-a
+This is an api I made ages ago to generate qrcodes with a few different parameters.
+Idk if I should maintain it or not.
 
 ___
 ## Basic Usage
 
-### Generating the Codes
+### Generating the QRCode
 
 `/qrcode` method `post`
 
@@ -42,4 +43,4 @@ ___
 
 ### Retriving the Code Images
 
-`/images/[id]` where `id` = the generated qrcode id
+`/images/[id]` where `id` = the generated qrcode id using the `GET` method.
