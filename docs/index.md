@@ -41,6 +41,19 @@ ___
     * Number
     * URL
 
+
+Example
+```json
+{
+    "size": "auto",
+    "quality": 5,
+    "margin": 5,
+    "expiry": 120,
+    "detail": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}
+```
+
+
 ### Retriving the Code Images
 
 `/images/[id]` where `id` = the generated qrcode id using the `GET` method.
